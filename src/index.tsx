@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import App from './pages/App';
-import NavBar from './components/navBar';
+import NavBar from './components/NavBar';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
