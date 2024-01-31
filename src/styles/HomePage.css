@@ -30,14 +30,62 @@
     justify-content: center;
     align-items: center;
 }
-.middle-text{
+/* .middle-text{
     text-align: center;
+} */
+.arched-text{
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+    font-size: 24px;
 }
+.character{
+    position: absolute;
+    top: 50%;
+    transform-origin: center bottom;
+    transform: translateY(-50%);    
+}
+/* i need to add padding to each character to place correctly */
+.character:nth-child(1){
+    transform: rotate(-50deg);
+}
+.character:nth-child(2){
+    transform: rotate(-45deg);
+}
+.character:nth-child(3){
+    transform: rotate(-40deg);
+}
+.character:nth-child(4){
+    transform: rotate(-35deg);
+}
+.character:nth-child(5){
+    transform: rotate(-30deg);
+}
+.character:nth-child(6){
+    transform: rotate(-25deg);
+}
+.character:nth-child(7){
+    transform: rotate(-20deg);
+}
+.character:nth-child(8){
+    transform: rotate(-15deg);
+}
+.character:nth-child(9){
+    transform: rotate(-10deg);
+}
+.character:nth-child(10){
+    transform: rotate(-5deg);
+}
+.character:nth-child(11){
+    transform: rotate(0deg);
+}
+
 .middle-picture{
-    margin-top: 80px;
+    margin-top: 50px;
     background-color: gray;
     width: 450px;
-    height: 650px;
+    height: 700px;
+    border-radius: 225px 225px 10px 10px; 
 }
 .wedding-info{
     height: 100vh;

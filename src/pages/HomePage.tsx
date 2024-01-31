@@ -12,8 +12,36 @@ function HomePage(){
                             <p>September 7th, 2024</p>
                         </div>
                         <div className="middle-section">
-                            <div className="middle-text">
-                                The Wedding of Marco + Brittany
+                            <div className="arched-text">
+                                <span className="character">T</span>
+                                <span className="character">H</span>
+                                <span className="character">E</span>
+                                <span className="character"></span>
+                                <span className="character">W</span>
+                                <span className="character">E</span>
+                                <span className="character">D</span>
+                                <span className="character">D</span>
+                                <span className="character">I</span>
+                                <span className="character">N</span>
+                                <span className="character">G</span>
+                                {/* <span className="character"></span>
+                                <span className="character">O</span>
+                                <span className="character">F</span>
+                                <span className="character"></span>
+                                <span className="character">M</span>
+                                <span className="character">A</span>
+                                <span className="character">R</span>
+                                <span className="character">C</span>
+                                <span className="character">O</span>
+                                <span className="character">+</span>
+                                <span className="character">B</span>
+                                <span className="character">R</span>
+                                <span className="character">I</span>
+                                <span className="character">T</span>
+                                <span className="character">T</span>
+                                <span className="character">A</span>
+                                <span className="character">N</span>
+                                <span className="character">Y</span> */}
                             </div>
                             <div className="middle-picture">
                                 <div className="img-holder"></div>
