@@ -123,29 +123,53 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     place-items: center;
-    background-color: #A6D657;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .wedding-info p{
     color: #FF9100;
+}
+.ceremony-info p:first-child, .ceremony-info p:last-child{
+    font-size: 28px;
+}
+.reception-info p:first-child, .reception-info p:last-child{
+    font-size: 28px;
+}
+.wedding-info p:nth-child(2){
+    padding-bottom: 30px;
+    padding-top: 25px;
 }
 .ceremony-info{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 33%;
+    width: 50%;
 }
 .plus{
     width: 33%;
     text-align: center;
 }
+.plus p{
+    font-size: 90px;
+}
 .reception-info{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 33%;
+    width: 50%;
 }
 .rsvp-button{
     grid-column: 1 / span 3;
+}
+.rsvp-button button{
+    width: 145px;
+    height: 55px;
+    font-size: 16px;
+    background-color: #FF9100;
+    border-style: none;
+    color: #FFFF;
+    letter-spacing: 4px;
 }
 .faq-section{
     height: 50vh;
@@ -153,17 +177,31 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #A6D657;
+}
+.faq-section p{
+    color: #ffff;
+    line-height: 2.2;
 }
 
 .registry-section{
     height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    text-align: center;
+}
+.registry-section p:first-child{
+    padding-top: 170px;
+    width: 29%;
+}
+.registry-section p:last-child{
+    padding-top: 45px;
 }
 .registry-section p{
     color: #FF9100;
+    width: 40%;
 }
 .home-final-message-section{
     height: 60vh;
