@@ -1,0 +1,7 @@
+.faq-main{
+    width: 100%;
+}
+.faq-section{
+    display: flex;
+    flex-direction: row;
+}
