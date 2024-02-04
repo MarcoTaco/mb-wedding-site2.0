@@ -3,9 +3,15 @@
     margin: 0;
     width: 100%;
 }
+.big-text{
+    font-size: 52px;
+}
+.small-text{
+    font-size: 22px;
+}
 .home-intro-section{
     height: 900px;
-    background-color: salmon;
+    background-color: #FED5EB;
 }
 .home-intro{
     display: flex;
@@ -20,7 +26,23 @@
     align-items: center;
     width: 33%;
     text-align: center;
-    
+}
+.home-intro-section .home-text:first-child{
+    padding-bottom: 340px;
+}
+.home-intro-section .home-text:last-child{
+    padding-bottom: 270px;
+}
+.home-text p{
+    color: #FF9100;
+    width: 30%;
+}
+.home-text p:first-child{
+    padding-bottom: 40px;
+}
+.home-text p:nth-child(3){
+    padding-top: 20px;
+    font-weight: 700;
 }
 .middle-section{
     width: 33%;
@@ -30,14 +52,14 @@
     justify-content: center;
     align-items: center;
 }
-/* .middle-text{
-    text-align: center;
-} */
+.middle-section span{
+    color: #FF9100;
+}
 .arched-text{
     display: inline-block;
     position: relative;
     white-space: nowrap;
-    font-size: 24px;
+    font-size: 44px;
 }
 .character{
     position: absolute;
@@ -45,39 +67,46 @@
     transform-origin: center bottom;
     transform: translateY(-50%);    
 }
-/* i need to add padding to each character to place correctly */
 .character:nth-child(1){
-    transform: rotate(-50deg);
+    transform: rotate(-30deg);
+    top: -33px;
+    right: 140px;
 }
 .character:nth-child(2){
-    transform: rotate(-45deg);
+    transform: rotate(0deg);
+    top: -65px;
+    right: -100px;
+    
 }
 .character:nth-child(3){
-    transform: rotate(-40deg);
+    transform: rotate(30deg);
+    top: -45px;
+    left: 135px;
 }
 .character:nth-child(4){
     transform: rotate(-35deg);
+    top: 42px;
+    right: 97px;
 }
 .character:nth-child(5){
-    transform: rotate(-30deg);
+    transform: rotate(-26deg);
+    top: 0px;
+    right: 50px;
 }
 .character:nth-child(6){
-    transform: rotate(-25deg);
+    transform: rotate(-0deg);
+    top: -15px;
+    right: 0px;
 }
 .character:nth-child(7){
-    transform: rotate(-20deg);
+    transform: rotate(20deg);
+    top: 0px;
+    left: 20px;
 }
 .character:nth-child(8){
-    transform: rotate(-15deg);
-}
-.character:nth-child(9){
-    transform: rotate(-10deg);
-}
-.character:nth-child(10){
-    transform: rotate(-5deg);
-}
-.character:nth-child(11){
-    transform: rotate(0deg);
+    transform: rotate(30deg);
+    left: 106px;
+    top: 45px;
 }
 
 .middle-picture{
@@ -88,13 +117,16 @@
     border-radius: 225px 225px 10px 10px; 
 }
 .wedding-info{
-    height: 100vh;
+    height: 50vh;
     display: grid; 
     grid-template-rows: repeat(2, auto);
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     place-items: center;
-    background-color: greenyellow;
+    background-color: #A6D657;
+}
+.wedding-info p{
+    color: #FF9100;
 }
 .ceremony-info{
     display: flex;
@@ -116,12 +148,13 @@
     grid-column: 1 / span 3;
 }
 .faq-section{
-    height: 80vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .registry-section{
     height: 80vh;
     display: flex;
@@ -129,12 +162,24 @@
     justify-content: center;
     align-items: center;
 }
-.home-final-message{
-    height: 80vh;
-    text-align: center;
-    background-color: greenyellow;
+.registry-section p{
+    color: #FF9100;
 }
-
+.home-final-message-section{
+    height: 60vh;
+    background-color: #A6D657;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-final-message{
+    width: 40%;
+}
+.home-final-message p{
+    font-size: 60px;
+    text-align: center;
+    color: #FED5EB
+}
 /* phone size screens */
 @media(min-width: 480px){
 
