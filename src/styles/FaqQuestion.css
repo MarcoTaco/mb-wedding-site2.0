@@ -1,0 +1,8 @@
+.faq-question{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.question, .answer{
+    color: #BA5BA7;
+}
