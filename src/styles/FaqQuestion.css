@@ -1,8 +1,24 @@
 .faq-question{
-    width: 40%;
+    width: 60%;
     display: flex;
     flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
 }
 .question, .answer{
     color: #BA5BA7;
+}
+.answer h3{
+    padding-right: 5px; 
+}
+.question{
+    padding-bottom: 15px;
+}
+.answer{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+.answer p{
+    line-height: 1.5;
 }

@@ -1,7 +1,40 @@
 .faq-main{
     width: 100%;
+    height: 100vh;
 }
 .faq-section{
     display: flex;
     flex-direction: row;
+}
+.questions-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.questions-answers{
+    padding-top: 50px;   
+}
+.faqs-header{
+    text-align: center;
+}
+.faqs-header h2{
+    color: #BA5BA7;
+    padding-top: 65px;
+    padding-bottom: 25px;
+}
+.faqs-header h3{
+    color: #BA5BA7;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+    font-weight: 100;
+}
+.img-section{
+    display: flex; 
+    flex-direction: column;
+    background-color: #BA5BA7;
+    width: 50%;
 }

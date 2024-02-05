@@ -7,9 +7,9 @@ import RsvpPage from "../pages/RsvpPage";
 function App() {
   return (
     <React.StrictMode>
-      <HomePage />
+      {/* <HomePage /> */}
       <FaqPage />
-      <RsvpPage />
+      {/* <RsvpPage /> */}
     </React.StrictMode>
   );
 }
