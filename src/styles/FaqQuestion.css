@@ -8,10 +8,19 @@
 .question, .answer{
     color: #BA5BA7;
 }
+.question h3{
+    font-size: 20px
+}
+.question h3:first-child{
+    padding-right: 5px;
+}
 .answer h3{
     padding-right: 5px; 
+    font-size: 20px;
 }
 .question{
+    display: flex;
+    flex-direction: row;
     padding-bottom: 15px;
 }
 .answer{
@@ -21,4 +30,5 @@
 }
 .answer p{
     line-height: 1.5;
+    font-size: 20px;
 }

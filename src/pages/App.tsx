@@ -8,8 +8,8 @@ function App() {
   return (
     <React.StrictMode>
       {/* <HomePage /> */}
-      <FaqPage />
-      {/* <RsvpPage /> */}
+      {/* <FaqPage /> */}
+      <RsvpPage />
     </React.StrictMode>
   );
 }
