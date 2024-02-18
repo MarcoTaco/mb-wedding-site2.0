@@ -1,3 +1,20 @@
+.rsvp-form{
+    width: 55%;
+    height: 55vh;
+    background-color: white;
+}
+.form-info{
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
 /* phone size screens */
 @media(min-width: 480px){
 
