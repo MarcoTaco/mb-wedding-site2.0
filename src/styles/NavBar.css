@@ -37,3 +37,19 @@ ul{
 .navigation-bar nav li{
     padding-right: 30px;
 }
+/* phone size screens */
+@media(min-width: 480px){
+
+}
+/* tablet size screens */
+@media(min-width: 768px){
+
+}
+/* landscape tablets */
+@media(min-width: 992px){
+
+}
+/* desktop sized screens */
+@media(min-width: 1200px){
+
+}
